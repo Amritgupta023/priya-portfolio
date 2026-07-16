@@ -1,0 +1,169 @@
+Priya Gupta
+
+Azure Data Engineer
+
+📞 +91 6397634915
+📧 priyagupta5011@gmail.com
+
+Hero Section
+
+Azure Data Engineer | Microsoft Fabric | Azure Data Factory | Azure Databricks | PySpark | Power BI
+
+Azure Data Engineer with 2+ years of experience designing and implementing scalable cloud-based data solutions on Microsoft Azure. Experienced in building ETL pipelines, developing data warehouses, processing large datasets using PySpark, and creating business intelligence dashboards with Power BI. Passionate about developing efficient, secure, and high-performance data platforms.
+
+About Me
+
+I am an Azure Data Engineer specializing in data engineering, cloud data platforms, and business intelligence. My expertise includes building end-to-end ETL pipelines, designing scalable data architectures, implementing data transformation workflows, and developing insightful Power BI dashboards.
+
+I have hands-on experience with Microsoft Fabric, Azure Data Factory, Azure Databricks, Azure SQL Database, Azure Data Lake Gen2, Azure Key Vault, and Azure Logic Apps. I enjoy solving complex data engineering problems while delivering reliable and scalable solutions.
+
+Skills
+Cloud
+Microsoft Fabric
+Azure Data Factory
+Azure Databricks
+Azure Data Lake Gen2
+Azure Blob Storage
+Azure SQL Database
+Azure SQL Server
+Azure Key Vault
+Azure Logic Apps
+Programming
+PySpark
+SQL
+MySQL
+Data Engineering
+ETL Development
+Data Pipelines
+Data Warehousing
+Data Modeling
+Data Transformation
+Master Data Management
+Analytics
+Power BI
+Dashboard Development
+Data Visualization
+Other
+Web Scraping
+Data Scraping
+Experience
+Software Engineer – Data
+
+New Vision Software and Consultancy
+
+2022 – Present
+
+Project: Data Warehousing
+
+Environment
+
+Microsoft Fabric
+Responsibilities
+Developed PySpark notebooks to extract data from multiple source systems.
+Built Lakehouse architecture for storing raw data.
+Implemented Data Flow Generation 2.
+Created and maintained Data Pipelines.
+Scheduled Pipelines and Notebooks.
+Designed interactive Power BI dashboards.
+Developed data models and relationships in Power BI.
+Database Developer
+Project: Performance Tuning
+
+Environment
+
+MySQL
+Responsibilities
+Worked closely with stakeholders and architects to understand reporting requirements.
+Improved database performance through optimization techniques.
+Implemented clustered and non-clustered indexes.
+Optimized SQL joins and query execution.
+Utilized Window Functions and Common Table Expressions (CTEs).
+Developed Stored Procedures and Functions.
+Applied Set Operators for efficient query processing.
+Enhanced database maintainability and performance.
+Software Engineer Intern
+
+New Vision Software and Consultancy
+
+2021 – 2022
+
+Project: Data Warehousing
+
+Environment
+
+Azure Data Factory
+Azure Databricks
+Azure Data Lake Gen2
+Azure SQL Server
+Azure Key Vault
+Azure Logic Apps
+SQL Server
+Responsibilities
+Built ETL pipelines using Azure Data Factory.
+Performed screen scraping using Azure Databricks notebooks.
+Transformed source data for data warehouse consumption.
+Configured Azure Data Factory and Azure SQL Database.
+Executed DDL, DML, and DCL operations.
+Developed Pipelines, Linked Services, Datasets, Data Flows, and Integration Runtimes.
+Integrated Azure Key Vault with Azure Data Factory.
+Automated pipeline execution using Triggers.
+Monitored pipeline execution through ADF Monitoring.
+Implemented Azure Logic Apps email notifications for pipeline failures.
+Education
+Bachelor of Technology (Computer Science & Engineering)
+
+Sushila Devi Bansal College of Technology
+
+2018 – 2022
+
+CGPA: 8.32
+First Division with Honours
+Certification
+DP-900 – Microsoft Azure Data Fundamentals
+Core Expertise
+Azure Data Engineering
+Microsoft Fabric
+ETL Pipeline Development
+Data Warehousing
+PySpark
+Azure Databricks
+Azure Data Factory
+Power BI
+SQL Optimization
+Performance Tuning
+Data Modeling
+Azure Cloud Services
+Suggested Portfolio Sections
+Home
+About
+Skills
+Experience
+Projects
+Certifications
+Education
+Contact
+Projects (Portfolio Cards)
+Data Warehousing using Microsoft Fabric
+
+Tech Stack: Microsoft Fabric, PySpark, Power BI, Data Pipelines
+
+Developed end-to-end data pipelines.
+Built Lakehouse architecture.
+Designed Power BI dashboards.
+Automated pipeline scheduling.
+SQL Performance Optimization
+
+Tech Stack: MySQL
+
+Optimized database performance.
+Implemented indexing strategies.
+Improved complex SQL queries.
+Used Stored Procedures, CTEs, and Window Functions.
+Azure Data Engineering Platform
+
+Tech Stack: Azure Data Factory, Azure Databricks, Azure SQL, Azure Key Vault, Logic Apps
+
+Developed enterprise ETL workflows.
+Automated data movement.
+Integrated secure credential management.
+Implemented monitoring and alerting.
