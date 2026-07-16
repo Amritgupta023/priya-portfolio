@@ -1,4 +1,4 @@
-node_modules
+resume.txt
+/node_modules
+*.log
 dist
-.vite
-*.local
