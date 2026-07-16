@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   build-and-deploy:
-    name: Build and deploy to EC2 priya profile
+    name: Build and deploy to EC2 priya profiles
     runs-on: ubuntu-latest
 
     environment: production
