@@ -63,7 +63,7 @@ img { display: block; width: 100%; }
 .stack { display: flex; flex-wrap: wrap; gap: 8px; }
 .stack span { padding: 7px 10px; border: 1px solid var(--line); border-radius: var(--radius); font: 11px Space Mono, monospace; }
 
-.experience { padding-block: 88px; border-top: 1px solid var(--line); }
+.experience { padding-block: 50px; border-top: 1px solid var(--line); }
 .experience-heading { margin-bottom: 70px; }
 .timeline { margin-left: 20%; }
 .job { display: grid; grid-template-columns: .75fr 1.25fr; gap: 60px; padding: 42px 0; border-top: 1px solid var(--line); }
@@ -73,7 +73,7 @@ img { display: block; width: 100%; }
 .job h3 { margin: 0 0 12px; font-size: 28px; letter-spacing: -.03em; }
 .job p { max-width: 630px; margin: 0; color: var(--muted); line-height: 1.65; }
 
-.skills { padding-block: 88px; }
+.skills { padding-block: 50px; }
 .skill-columns { display: grid; grid-template-columns: 1.2fr .9fr .9fr; gap: 0; border-top: 1px solid var(--line); }
 .skill-group { position: relative; min-height: 420px; padding: 30px; border-right: 1px solid var(--line); }
 .skill-group:first-child { padding-left: 0; }
@@ -82,7 +82,7 @@ img { display: block; width: 100%; }
 .skill-group p { margin: 0 0 12px; font-size: clamp(18px, 2vw, 25px); letter-spacing: -.025em; }
 .skill-icon { position: absolute; right: 30px; bottom: 30px; color: var(--accent); }
 
-.education { padding-block: 88px; border-top: 1px solid var(--line); }
+.education { padding-block: 50px; border-top: 1px solid var(--line); }
 .education h2 { margin-bottom: 70px; }
 .education-grid { display: grid; grid-template-columns: 1.35fr .65fr; gap: 80px; margin-left: 20%; }
 .education-grid h3 { max-width: 580px; margin: 0 0 16px; font-size: clamp(25px, 3vw, 38px); letter-spacing: -.035em; }
