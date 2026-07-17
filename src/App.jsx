@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { motion as Motion, useReducedMotion, useScroll, useTransform } from 'motion/react'
 import {
   ArrowDown,
@@ -65,18 +65,36 @@ function App() {
   const { scrollYProgress } = useScroll()
   const progress = useTransform(scrollYProgress, [0, 1], ['0%', '100%'])
 
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? 'hidden' : ''
+    const closeOnEscape = (event) => {
+      if (event.key === 'Escape') setMenuOpen(false)
+    }
+    window.addEventListener('keydown', closeOnEscape)
+    return () => {
+      document.body.style.overflow = ''
+      window.removeEventListener('keydown', closeOnEscape)
+    }
+  }, [menuOpen])
+
   return (
     <div className="page">
       <Motion.div className="progress" style={{ scaleX: scrollYProgress }} />
       <header className="nav">
         <a className="wordmark" href="#top" aria-label="Priya Gupta home">PG</a>
-        <nav className={menuOpen ? 'nav-links open' : 'nav-links'} aria-label="Main navigation">
+        <nav id="mobile-navigation" className={menuOpen ? 'nav-links open' : 'nav-links'} aria-label="Main navigation">
           <a href="#work" onClick={() => setMenuOpen(false)}>Projects</a>
           <a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a>
           <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
           <a className="contact-nav" href="mailto:priyagupta5011@gmail.com">Contact</a>
         </nav>
-        <button className="menu" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
+        <button
+          className="menu"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={menuOpen}
+          aria-controls="mobile-navigation"
+        >
           {menuOpen ? <X size={24} /> : <List size={24} />}
         </button>
       </header>
