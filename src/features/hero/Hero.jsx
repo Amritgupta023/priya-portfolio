@@ -1,7 +1,52 @@
-import { ArrowDown, DownloadSimple } from '@phosphor-icons/react'
-import { motion as Motion } from 'motion/react'
-import { Reveal } from '../../components/ui/Reveal/Reveal'
-import './Hero.scss'
+import { ArrowDown, DownloadSimple } from "@phosphor-icons/react";
+import { motion as Motion } from "motion/react";
+import { Reveal } from "../../components/ui/Reveal/Reveal";
+import "./Hero.scss";
 export function Hero() {
-  return <><section className="hero"><Motion.div className="hero-copy" initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}><p className="role">Azure Data Engineer</p><h1>I build data systems that stay clear under pressure.</h1><p className="hero-text">Scalable Azure pipelines, reliable warehouses, and analytics that teams can act on.</p><div className="actions"><a className="primary" href="#work">View projects <ArrowDown size={18} weight="bold" /></a><a className="secondary" href="/resume.txt" download>Download résumé <DownloadSimple size={18} /></a></div></Motion.div><Motion.figure className="hero-image" initial={{ opacity: 0, clipPath: 'inset(0 0 100% 0)' }} animate={{ opacity: 1, clipPath: 'inset(0 0 0% 0)' }} transition={{ duration: 1.1, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}><img src="/images/hero-data-architecture.png" alt="Abstract cloud data architecture formed from cobalt glass and graphite structures" /></Motion.figure></section><section className="statement"><Reveal><p>Two years of hands-on work across Microsoft Fabric, Azure Data Factory, Databricks, PySpark, SQL, and Power BI.</p></Reveal></section></>
+  return (
+    <>
+      <section className="hero">
+        <Motion.div
+          className="hero-copy"
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <p className="role">Azure Data Engineer</p>
+          <h1>I build data systems that stay clear under pressure.</h1>
+          <p className="hero-text">
+            Scalable Azure pipelines, reliable warehouses, and analytics that
+            teams can act on.
+          </p>
+          <div className="actions">
+            <a className="primary" href="#work">
+              View projects <ArrowDown size={18} weight="bold" />
+            </a>
+            <a className="secondary" href="/resume.txt" download>
+              Download résumé <DownloadSimple size={18} />
+            </a>
+          </div>
+        </Motion.div>
+        <Motion.figure
+          className="hero-image"
+          initial={{ opacity: 0, clipPath: "inset(0 0 100% 0)" }}
+          animate={{ opacity: 1, clipPath: "inset(0 0 0% 0)" }}
+          transition={{ duration: 1.1, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <img
+            src="/images/hero-data-architecture.png"
+            alt="Abstract cloud data architecture formed from cobalt glass and graphite structures"
+          />
+        </Motion.figure>
+      </section>
+      <section className="statement">
+        <Reveal>
+          <p>
+            Two years of hands-on work across Microsoft Fabric, Azure Data
+            Factory, Databricks, PySpark, SQL, and Power BI.
+          </p>
+        </Reveal>
+      </section>
+    </>
+  );
 }

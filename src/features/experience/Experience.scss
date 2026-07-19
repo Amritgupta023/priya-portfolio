@@ -1,3 +1,57 @@
-.experience { padding-block: 50px; border-top: 1px solid var(--line); } .experience-heading { margin-bottom: 70px; } .timeline { margin-left: 20%; }
-.job { display: grid; grid-template-columns: .75fr 1.25fr; gap: 60px; padding: 42px 0; border-top: 1px solid var(--line); } .job span, .job strong { display: block; } .job span, .education-grid span { margin-bottom: 13px; color: var(--accent); font: 12px Space Mono, monospace; } .job strong { max-width: 260px; font-size: 13px; line-height: 1.5; } .job h3 { margin: 0 0 12px; font-size: 28px; letter-spacing: -.03em; } .job p { max-width: 630px; margin: 0; color: var(--muted); line-height: 1.65; }
-@media (max-width: 800px) { .experience { padding-block: 64px; } .timeline { margin-left: 0; } .job { grid-template-columns: 1fr; gap: 26px; } }
+.experience {
+  padding-block: 50px;
+  border-top: 1px solid var(--line);
+}
+.experience-heading {
+  margin-bottom: 70px;
+}
+.timeline {
+  margin-left: 20%;
+}
+.job {
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  gap: 60px;
+  padding: 42px 0;
+  border-top: 1px solid var(--line);
+}
+.job span,
+.job strong {
+  display: block;
+}
+.job span,
+.education-grid span {
+  margin-bottom: 13px;
+  color: var(--accent);
+  font:
+    12px Space Mono,
+    monospace;
+}
+.job strong {
+  max-width: 260px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.job h3 {
+  margin: 0 0 12px;
+  font-size: 28px;
+  letter-spacing: -0.03em;
+}
+.job p {
+  max-width: 630px;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+@media (max-width: 800px) {
+  .experience {
+    padding-block: 64px;
+  }
+  .timeline {
+    margin-left: 0;
+  }
+  .job {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+}
