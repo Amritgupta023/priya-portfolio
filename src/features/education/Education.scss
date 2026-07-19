@@ -1,0 +1,2 @@
+.education { padding-block: 50px; border-top: 1px solid var(--line); } .education h2 { margin-bottom: 70px; } .education-grid { display: grid; grid-template-columns: 1.35fr .65fr; gap: 80px; margin-left: 20%; } .education-grid h3 { max-width: 580px; margin: 0 0 16px; font-size: clamp(25px, 3vw, 38px); letter-spacing: -.035em; } .education-grid p { color: var(--muted); line-height: 1.7; }
+@media (max-width: 800px) { .education { padding-block: 64px; } .education-grid { margin-left: 0; grid-template-columns: 1fr; gap: 50px; } }

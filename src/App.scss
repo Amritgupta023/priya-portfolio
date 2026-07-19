@@ -1,0 +1,2 @@
+.page { min-height: 100dvh; } .shell { width: min(calc(100% - 64px), 1380px); margin-inline: auto; }
+@media (max-width: 800px) { .shell { width: calc(100% - 32px); } }
